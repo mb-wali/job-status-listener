@@ -169,7 +169,7 @@ func main() {
 
 	r := newRouter(publisher)
 
-	listenPortSpec := ":" + "60000"
+	listenPortSpec := ":" + "60020"
 	log.Infof("Listening on %s", listenPortSpec)
 	log.Fatal(http.ListenAndServe(listenPortSpec, r))
 }

@@ -1,0 +1,6 @@
+
+listen_port: 60020
+amqp:
+  uri: amqp://guest:guest@mq:5672
+  exchange:
+    name: de
